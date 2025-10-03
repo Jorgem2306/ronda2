@@ -569,17 +569,17 @@
             // Determinar el ganador
             if (puntajeEquipo1 > puntajeEquipo2) {
                 doorImage.src = 'imagen-inicial.png';
-                ganadorMensaje.textContent = '¡Gana el Equipo 1!';
+                ganadorMensaje.textContent = '¡Gana el Equipo Luna!';
             } else if (puntajeEquipo2 > puntajeEquipo1) {
                 doorImage.src = 'imagen-inicial.png';
-                ganadorMensaje.textContent = '¡Gana el Equipo 2!';
+                ganadorMensaje.textContent = '¡Gana el Equipo Sol!';
             } else {
                 doorImage.src = 'imagen-inicial.png';
                 ganadorMensaje.textContent = '¡Es un empate!';
             }
            
-            finalScoreEquipo1El.textContent = `Puntaje Equipo 1: ${puntajeEquipo1}`;
-            finalScoreEquipo2El.textContent = `Puntaje Equipo 2: ${puntajeEquipo2}`;
+            finalScoreEquipo1El.textContent = `Puntaje Equipo Luna: ${puntajeEquipo1}`;
+            finalScoreEquipo2El.textContent = `Puntaje Equipo Sol: ${puntajeEquipo2}`;
            
             doorImageContainer.classList.add('visible');
 
